@@ -37,7 +37,7 @@ Custom loading template & loading text inputs are also available.
 > Import module to your application master module
 
 ```javascript
-import { Ng4LoadingSpinnerModule } from 'ng4-loading-spinner';
+import { Ng4LoadingSpinnerModule } from 'ng4-loading-spinner-jbk-fork';
 ```
 
 > Make an import entry as shown below
@@ -60,7 +60,7 @@ imports: [ Ng4LoadingSpinnerModule.forRoot() ]
 
 ```javascript
 
-import { Ng4LoadingSpinnerService } from 'ng4-loading-spinner';
+import { Ng4LoadingSpinnerService } from 'ng4-loading-spinner-jbk-fork';
 
 ```
 
