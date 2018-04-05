@@ -12,10 +12,10 @@ export * from './ng4LoadingSpinnerJbkFork.component';
   exports: [Ng4LoadingSpinnerJbkForkComponent],
   providers: [Ng4LoadingSpinnerJbkForkService]
 })
-export class Ng4LoadingSpinnerModule {
+export class Ng4LoadingSpinnerModuleJbkFork {
   static forRoot(): ModuleWithProviders {
     return {
-      ngModule: Ng4LoadingSpinnerModule,
+      ngModule: Ng4LoadingSpinnerModuleJbkFork,
       providers: [Ng4LoadingSpinnerJbkForkService]
     };
   }
