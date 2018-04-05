@@ -1,4 +1,4 @@
-# ng4-loading-spinner
+# ng4-loading-spinner-jbk-fork
 
 Angular 5 custom async loading spinner with two simple methods for your asychronous calls.
 Custom loading template & loading text inputs are also available.
