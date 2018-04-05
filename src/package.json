@@ -35,10 +35,10 @@
     "url": "https://github.com/amitmahida92/ng4-loading-spinner/issues"
   },
   "homepage": "https://github.com/amitmahida92/ng4-loading-spinner",
-  "main": "ng4-loading-spinner.umd.js",
-  "module": "ng4-loading-spinner.js",
-  "jsnext:main": "ng4-loading-spinner.js",
-  "typings": "ng4-loading-spinner.d.ts",
+  "main": "ng4-loading-spinner-jbk-fork.umd.js",
+  "module": "ng4-loading-spinner-jbk-fork.js",
+  "jsnext:main": "ng4-loading-spinner-jbk-fork.js",
+  "typings": "ng4-loading-spinner-jbk-fork.d.ts",
   "peerDependencies": {
     "@angular/core": "^5.0.3",
     "rxjs": "^5.5.2",

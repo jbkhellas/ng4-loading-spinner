@@ -1,21 +1,21 @@
 import { Component, OnInit, OnDestroy, Input, ViewEncapsulation } from '@angular/core';
-import { Ng4LoadingSpinnerService } from './ng4LoadingSpinner.service';
+import { Ng4LoadingSpinnerJbkForkService } from './ng4LoadingSpinnerJbkFork.service';
 import { Subscription } from 'rxjs/Subscription';
 
 /**
  * @description
  * @author Amit Mahida
  * @export
- * @class Ng4LoadingSpinnerComponent
+ * @class Ng4LoadingSpinnerJbkForkComponent
  * @implements {OnDestroy}
  */
 @Component({
-  selector: 'ng4-loading-spinner',
-  templateUrl: './ng4LoadingSpinner.component.html',
-  styleUrls: ['./ng4LoadingSpinner.component.css'],
+  selector: 'ng4-loading-spinner-jbk-fork',
+  templateUrl: './ng4LoadingSpinnerJbkFork.component.html',
+  styleUrls: ['./ng4LoadingSpinnerJbkFork.component.css'],
   encapsulation: ViewEncapsulation.None
 })
-export class Ng4LoadingSpinnerComponent implements OnDestroy {
+export class Ng4LoadingSpinnerJbkForkComponent implements OnDestroy {
 
   /**
    * @description Default loading spinner template
@@ -142,11 +142,11 @@ export class Ng4LoadingSpinnerComponent implements OnDestroy {
 
   /**
    * Constructor
-   * @param {Ng4LoadingSpinnerService} spinnerService Spinner Service
+   * @param {Ng4LoadingSpinnerJbkForkService} spinnerService Spinner Service
    * @memberof Ng4LoadingSpinnerComponent
    */
   constructor(
-    private spinnerService: Ng4LoadingSpinnerService
+    private spinnerService: Ng4LoadingSpinnerJbkForkService
   ) {
     this.createServiceSubscription();
   }

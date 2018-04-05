@@ -5,10 +5,10 @@ import { Observable } from 'rxjs/Observable';
 /**
  * Injectable service
  * @export
- * @class Ng4LoadingSpinnerService
+ * @class Ng4LoadingSpinnerJbkForkService
  */
 @Injectable()
-export class Ng4LoadingSpinnerService {
+export class Ng4LoadingSpinnerJbkForkService {
 
     /**
      * @description spinners BehaviorSubject

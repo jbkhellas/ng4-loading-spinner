@@ -1,22 +1,22 @@
 
 import { NgModule, ModuleWithProviders } from '@angular/core';
-import { Ng4LoadingSpinnerService } from './ng4LoadingSpinner.service';
-import { Ng4LoadingSpinnerComponent } from './ng4LoadingSpinner.component';
+import { Ng4LoadingSpinnerJbkForkService } from './ng4LoadingSpinnerJbkFork.service';
+import { Ng4LoadingSpinnerJbkForkComponent } from './ng4LoadingSpinnerJbkFork.component';
 
-export * from './ng4LoadingSpinner.service';
-export * from './ng4LoadingSpinner.component';
+export * from './ng4LoadingSpinnerJbkFork.service';
+export * from './ng4LoadingSpinnerJbkFork.component';
 
 @NgModule({
   imports: [],
-  declarations: [Ng4LoadingSpinnerComponent],
-  exports: [Ng4LoadingSpinnerComponent],
-  providers: [Ng4LoadingSpinnerService]
+  declarations: [Ng4LoadingSpinnerJbkForkComponent],
+  exports: [Ng4LoadingSpinnerJbkForkComponent],
+  providers: [Ng4LoadingSpinnerJbkForkService]
 })
 export class Ng4LoadingSpinnerModule {
   static forRoot(): ModuleWithProviders {
     return {
       ngModule: Ng4LoadingSpinnerModule,
-      providers: [Ng4LoadingSpinnerService]
+      providers: [Ng4LoadingSpinnerJbkForkService]
     };
   }
 }
